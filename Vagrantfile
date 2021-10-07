@@ -27,12 +27,12 @@ Vagrant.configure("2") do |config|
     # parameters from environment variables (more secure than
     # committing security credentials to your Vagrantfile).
     #
-    # aws.access_key_id = "YOUR KEY"
-    # aws.secret_access_key = "YOUR SECRET KEY"
-    # aws.session_token = "SESSION TOKEN"
+    aws.access_key_id = File.read("C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\.aws\\Accesskey.txt")
+    aws.secret_access_key = File.read("C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\.aws\\secrectaccesskey.txt")
+    aws.session_token = File.read("C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\.aws\\sessionkey.txt")
 
     # The region for Amazon Educate is fixed.
-    # aws.region = "US-east-1"
+    # aws.region = "us-east-1"
 
     # These options force synchronisation of files to the VM's
     # /vagrant directory using rsync, rather than using trying to use
@@ -68,8 +68,8 @@ Vagrant.configure("2") do |config|
     # (will be of the form "us-east-1a"). The subnet_id for that
     # availability_zone needs to be included, too (will be of the form
     # "subnet-...").
-    aws.availability_zone = "US-east-1a"
-    aws.subnet_id = "subnet-028fb1e17012ba877"
+    aws.availability_zone = "us-east-1a"
+    aws.subnet_id = "subnet-0542f167fc8b4de45"
 
     # You need to chose the AMI (i.e., hard disk image) to use. This
     # will be of the form "ami-...".
@@ -81,7 +81,9 @@ Vagrant.configure("2") do |config|
     # configuration (probably amd64, hvm:ebs-ssd, hvm).
     #
     aws.ami = "ami-036490d46656c4818"
-
+	
+	
+	aws.elastic_ip = "true"
     # If using Ubuntu, you probably also need to uncomment the line
     # below, so that Vagrant connects using username "ubuntu".
     override.ssh.username = "ubuntu"
