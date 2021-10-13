@@ -9,7 +9,7 @@ import CreateReviewView from "./CreateReviewView";
 function MovieDetails(props) {
     const [movieDetails, setDetails] = useState(Object);
     useEffect(() => {
-        axios.get('http://192.168.2.13:5000/Movie/' + props.movieId).then(response => {
+        axios.get('http://44.194.68.85:5000/Movie/' + props.movieId).then(response => {
             setDetails(response.data);
         })
     }, [])

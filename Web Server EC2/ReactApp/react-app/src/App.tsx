@@ -10,7 +10,7 @@ import CreateMovieView from "./CreateMovieView";
 function App() {
     const [movieSummaries, setSummaries] = useState([]);
     useEffect(() => {
-        axios.get('http://192.168.2.13:5000/Movie').then(response => {
+        axios.get('http://44.194.68.85:5000/Movie').then(response => {
             setSummaries(response.data);
         })
     }, [])

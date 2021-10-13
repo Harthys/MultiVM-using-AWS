@@ -11,7 +11,7 @@ let SubmitMovie = event => {
     const headers = {
         'Content-Type': 'application/json'
     }
-    axios.post("http://192.168.2.13:5000/Movie", {
+    axios.post("http://44.194.68.85:5000/Movie", {
             'title': title,
             'descriptionBody': descriptionBody
         }, {

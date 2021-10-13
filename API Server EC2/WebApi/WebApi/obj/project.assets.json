@@ -5595,11 +5595,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ihasMUFFIN\\Desktop\\GitHub\\MultiVMApplications\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\API Server EC2\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\ihasMUFFIN\\Desktop\\GitHub\\MultiVMApplications\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\API Server EC2\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\ihasMUFFIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ihasMUFFIN\\Desktop\\GitHub\\MultiVMApplications\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\API Server EC2\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ihasMUFFIN\\AppData\\Roaming\\NuGet\\NuGet.Config"

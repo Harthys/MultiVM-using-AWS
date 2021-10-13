@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5ukKjJeCe0ACXs/6yKqZZAjn0C9iKYiz+AhZRJDujhHiDeXRH6MtBiS07lwalKf58Vf9yFt0C8wQlFtu9V8LQ==",
+  "dgSpecHash": "Bse9cbQauG9UtfTZ85nYkJi9k9+TU7l7BkCqK7iH3Lr0oDO+oFN9cMpdnuENN8BjI8kdG6e/24vb4MLRkAHeyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ihasMUFFIN\\Desktop\\GitHub\\MultiVMApplications\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\ihasMUFFIN\\Documents\\COSC349Labs\\AWS-vagrant\\API Server EC2\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ihasMUFFIN\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.9\\microsoft.aspnetcore.jsonpatch.5.0.9.nupkg.sha512",
     "C:\\Users\\ihasMUFFIN\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.9.nupkg.sha512",
